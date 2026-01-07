@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Datasets
+*.csv
+*.zip
+# Keep specific small files if needed, but ignore large datasets
+!example_submission.csv
+
+# Model Weights
+*.pth
+*.pt
+*.ckpt
+
+# Training Logs and Outputs
+training_log.txt
+*.log
+plots/
+
+# Submission Files
+submission_*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
